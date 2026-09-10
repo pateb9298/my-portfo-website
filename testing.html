@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blob Test</title>
+  <style>
+    body {
+      margin: 0; padding: 0;
+      background: transparent;
+      display: flex; justify-content: center; align-items: center;
+      height: 100vh;
+    }
+    svg {
+      width: 400px; height: 400px;
+      filter: none;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <svg viewBox="0 400 900 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="blob-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FF6F91" />
+        <stop offset="100%" stop-color="#FF9671" />
+      </linearGradient>
+    </defs>
+    <path fill="url(#blob-gradient)" d="M 0 430 L 21.5 421 C 43 412 86 394 128.8 394.7 C 171.7 395.3 214.3 414.7 257.2 425.7 C 300 436.7 343 439.3 385.8 442.3 C 428.7 445.3 471.3 448.7 514.2 442.7 C 557 436.7 600 421.3 642.8 418.5 C 685.7 415.7 728.3 425.3 771.2 442.3 C 814 459.3 857 483.7 878.5 495.8 L 900 508 L 900 601 L 878.5 601 C 857 601 814 601 771.2 601 C 728.3 601 685.7 601 642.8 601 C 600 601 557 601 514.2 601 C 471.3 601 428.7 601 385.8 601 C 343 601 300 601 257.2 601 C 214.3 601 171.7 601 128.8 601 C 86 601 43 601 21.5 601 L 0 601 Z" />
+  </svg>
+</body>
+</html>
